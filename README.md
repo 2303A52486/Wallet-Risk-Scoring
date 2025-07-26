@@ -59,8 +59,6 @@ The following attributes were chosen based on their ability to signal wallet beh
 
 ###### | Feature                  | Weight | Reason                                   |
 
-###### |--------------------------|--------|------------------------------------------|
-
 ###### | compound\_tx\_count        | +0.20  | Experience drives activity up            |
 
 ###### | borrow\_count             | +0.20  | Reflects credit engagement               |
