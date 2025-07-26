@@ -57,25 +57,16 @@ The following attributes were chosen based on their ability to signal wallet beh
 
 
 
-###### | Feature                  | Weight | Reason                                   |
-
-###### | compound\_tx\_count        | +0.20  | Experience drives activity up            |
-
-###### | borrow\_count             | +0.20  | Reflects credit engagement               |
-
-###### | repay\_count              | +0.15  | Good repayment history                   |
-
-###### | enter\_markets\_count      | +0.10  | Diversity of protocols = lower risk      |
-
-###### | unique\_ctokens           | +0.10  | Portfolio diversification                |
-
-###### | error\_tx\_count           | -0.05  | Failed transactions = poor behavior      |
-
-###### | gas\_used                 | +0.10  | Indicates active participation           |
-
-###### | first\_activity\_days\_ago  | +0.10  | Older wallets = more trustworthy         |
-
-
+| Feature                   | Weight | Reason                                  |
+|---------------------------|--------|------------------------------------------|
+| `compound_tx_count`       | +0.20  | More activity = more trust               |
+| `borrow_count`            | +0.20  | Indicates credit usage                   |
+| `repay_count`             | +0.15  | Repayment behavior = lower risk          |
+| `enter_markets_count`     | +0.10  | Shows protocol engagement                |
+| `unique_ctokens`          | +0.10  | Token diversity = financial maturity     |
+| `error_tx_count`          | -0.05  | Failed transactions = operational risk   |
+| `gas_used`                | +0.10  | Indicates participation effort           |
+| `first_activity_days_ago` | +0.10  | Older wallets are usually more reliable  |
 
 
 
