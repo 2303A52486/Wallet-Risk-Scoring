@@ -57,15 +57,15 @@ The following attributes were chosen based on their ability to signal wallet beh
 
 
 
-###### | Feature                  | Weight | Reason                                   |
+###### | Feature\__________________| Weight | Reason                                   |
 
 ###### |--------------------------|--------|------------------------------------------|
 
-###### | compound\_tx\_count        | +0.20  | Experience drives activity up            |
+###### | compound\_tx\_count\________| +0.20  | Experience drives activity up            |
 
-###### | borrow\_count             | +0.20  | Reflects credit engagement               |
+###### | borrow\_count\______________| +0.20  | Reflects credit engagement               |
 
-###### | repay\_count              | +0.15  | Good repayment history                   |
+###### | repay\_count\_______________| +0.15  | Good repayment history                   |
 
 ###### | enter\_markets\_count      | +0.10  | Diversity of protocols = lower risk      |
 
